@@ -15,9 +15,12 @@ const Customerrequest = () => {
   
 
 
+  useEffect(() => {
+    console.log(`User got loaded`)
+    getRequests()
+  }, [])
 
 
-  
 
   const getRequests = () => {
     axios.get(url + `/customer/requests/${customerId}`).then((response) => {
