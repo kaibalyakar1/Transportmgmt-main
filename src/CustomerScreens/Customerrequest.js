@@ -8,9 +8,7 @@ const Customerrequest = () => {
   const history = useHistory()
   const [request, setRequest] = useState([])
   const customerId = sessionStorage.getItem('customerId')
-  //  console.log(sessionStorage.getItem('customer'))
 
-  //  const [user, setUser] = useState([])
 
   
 
